@@ -18,9 +18,9 @@
 		<img src="images/mithunlogo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Software Solutions, 
-		Martha Halli,
-		Bangalore,
+		Chirumamilla Software Solutions, 
+		Madhupur,
+		Hyderabad,
 		+91-9980923226,
 		devopstrainingbr@gmail.com
 		<br>
