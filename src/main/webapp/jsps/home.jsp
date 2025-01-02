@@ -22,7 +22,7 @@
 		Madhupur 500038,
 		Hyderabad,
 		+91-9980923226,
-		devopstrainingbr@gmail.com
+		devopsvenkat@gmail.com
 		<br>
 		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
 	</span>
