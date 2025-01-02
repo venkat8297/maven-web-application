@@ -24,7 +24,7 @@
 		+91-9980923226,
 		devopsvenkat@gmail.com
 		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:devopvenkat@gmail.com">Mail to Chirumamilla Technologies</a>
 	</span>
 </div>
 <hr>
