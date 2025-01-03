@@ -21,7 +21,7 @@
 		Chirumamilla Software Solutions, 
 		Madhupur 500038,
 		Hyderabad,
-		+91-9980923226,
+		+91-9949518298,
 		devopsvenkat@gmail.com
 		<br>
 		<a href="mailto:devopvenkat@gmail.com">Mail to Chirumamilla Technologies</a>
