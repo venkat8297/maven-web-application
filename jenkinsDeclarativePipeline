@@ -1,0 +1,51 @@
+pipeline{
+    
+agent any
+
+tools{
+maven "maven3.9.9"    
+}
+
+triggers {
+  pollSCM '* * * * *'
+}
+
+options {
+  buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')
+  timestamps() 
+    
+    
+}
+
+stages{
+stage('CheckoutCode')
+{
+steps{
+git branch: 'development', credentialsId: '7e0086b2-48b3-4a18-b08b-056dfbf3028a', url: 'https://github.com/venkat8297/maven-web-application.git'    
+}    
+}
+
+stage('BuildPackage')
+{
+steps{
+sh "mvn clean package"    
+}    
+}
+
+stage('ExecuteSonarQubeReport')
+{
+steps{
+sh "mvn sonar:sonar"    
+}    
+}
+
+stage('UploadArtifactsIntoNexusRepository')
+{
+steps{
+sh "mvn deploy"    
+}    
+}
+    
+
+}
+}
