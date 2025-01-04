@@ -24,5 +24,9 @@ stage('UploadArtifactsIntoNexus')
 {
 sh "${mavenHome}/bin/mvn deploy"    
 }
-  
+
+stage('BuildDownStreamProject')
+{
+build job: 'BuildWithParametersPipeline'
+}
 }
