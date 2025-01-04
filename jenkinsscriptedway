@@ -15,6 +15,10 @@ stage('BuildPackage')
 sh "${mavenHome}/bin/mvn clean package"    
 }
 
+stage('TriggerDownStreamJob'){
+buil job: 'BuildWithParametersPipeline'
+}
+
 stage('ExecuteSonarQubeReport')
 {
 sh "${mavenHome}/bin/mvn sonar:sonar"    
